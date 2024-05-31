@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Its Ya Boi, Daniel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="icon" href="../../pics/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../../stylish.css">
+</head>
+
+<body style="background-image: none; background-color: #2A2A2A;">
+    <div class="topnav" id="myTopnav">
+        <span style="cursor:pointer" onclick="openNav()">&#9776;</span>
+        <a href="../../Homepage.html">
+            <img src="../../pics/logo.png" draggable="false" width="40px" height="30px"
+                style="right: 10px; transform: translateY(5px); padding-left: 10px;">
+            <img src="../../pics/enigma.png" draggable="false" width="90px" height="30px"
+                style="transform: translateY(5px); padding-right: 10px;">
+        </a>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../../Homepage.html">
+            <img src="../../pics/enigma.png" draggable="false" width="90px" height="30px"
+                style="right: 10px; transform: translateY(5px)">
+        </a>
+        <h3>Cult&nbsp;Members:</h3>
+        <a href="../../MD/DELGADOCSS.html">MIKHA</a>
+        <a href="../DAMN DANIEL.html">DANIEL&nbsp;VIAN</a>
+        <a href="MyFavorites.html" class="active" style="font-size: 20px;">>&nbsp;&nbsp;Daniel's&nbsp;Favorites</a>
+    </div>
+    <center>
+        <div class="bottom" style="background-color: #4A4A4A;">
+            <a href="../DAMN DANIEL.html" target="_self">
+                <h3 style="color: aqua;">My Profile</h3>
+            </a>
+        </div>
+        <h2 style="color: #EEEEEE; align-self: center;">My taste of Music and Movie is GOooOoD</h2>
+        <br>
+        <br>
+        <a href="iframes/SelectMusic.html" target="iframe_music">
+            <div class=SecTop style=" background-color: #4A4A4A;">
+                <h3 style="color: #EEEEEE; font-size: x-large;">Music</h3>
+            </div>
+        </a>
+        <br>
+        <iframe name="iframe_music" src="iframes/SelectMusic.html" width="400" height="140"
+            style="border: none;"></iframe>
+        <br>
+        <div class="mv">
+            <div class="mvcolumn" style="background-color: #3A3A3A; height: 1240px;">
+                <a href="iframes/Supido.html" target="iframe_music"><img src="../Pics/Supido.png" width="400"
+                        height="250" hspace="50"></a>
+                <p style="font-size: x-large;"><b>Frozy - SUPIDO</b></p>
+                <a href="iframes/Laufey.html" target="iframe_music"><img src="../Pics/Laufey.png" width="400"
+                        height="250" hspace="50" href=""></a>
+                <p style="font-size: x-large;"><b>Laufey - From the Start</b></p>
+                <a href="iframes/Olivia.html" target="iframe_music"><img src="../Pics/Olivia.png" width="400"
+                        height="250" hspace="50" href=""></a>
+                <p style="font-size: x-large;"><b>Yung Kage - Olivia</b></p>
+                <a href="iframes/Igowallah.html" target="iframe_music"><img src="../Pics/Igowallah.png" width="400"
+                        height="250" hspace="50" href=""></a>
+                <p style="font-size: x-large;"><b>Daniel Thrasher - Igowallah</b></p>
+            </div>
+
+            <div class="mvcolumn" style="background-color: #3A3A3A; height: 1240px;" >
+                <a href="iframes/AllINeed.html" target="iframe_music"><img src="../Pics/All I Need.jpg" width="400"
+                        height="250" hspace="50" href=""></a>
+                <p style="font-size: x-large;"><b>khai dreams - All I Need ft. Afwood</b></p>
+                <a href="iframes/LagTrain.html" target="iframe_music"><img src="../Pics/LagTrain.png" width="400"
+                        height="250" hspace="50" href=""></a>
+                <p style="font-size: x-large;"><b>Inubakumori - Lagtrain</b></p>
+                <a href="iframes/LostUmbrella.html" target="iframe_music"><img src="../Pics/Lost Umbrella.png"
+                        width="400" height="250" hspace="50" href=""></a>
+                <p style="font-size: x-large;"><b>Inubakumori - Lost Umbrella<br> ft. Kaai Yuki</b></p>
+                <a href="iframes/Overdose.html" target="iframe_music"><img src="../Pics/Overdose.png" width="400"
+                        height="250" hspace="50" href=""></a>
+                <p style="font-size: x-large;"><b>Natori - Overdose</b></p>
+            </div>
+        </div>
+        <br><br><br><br>
+        <a href="iframes/SelectMovie.html" target="iframe_movie">
+            <div class=SecTop style=" background-color: #4A4A4A;">
+                <h3 style="color: #EEEEEE;">Movies/Trailers</h3>
+            </div>
+        </a>
+        <br>
+        <iframe name="iframe_movie" src="iframes/SelectMovie.html" width="730" height="470"
+            style="border: none;"></iframe>
+        <br>
+        <div class="mv">
+            <div class="mvcolumn" style="background-color: #3A3A3A;">
+                <a href="iframes/Spiderman.html" target="iframe_movie"><img
+                        src="../Pics/Spider-Man Across the Spider Verse.png" width="400" height="250" hspace="50"></a>
+                <p style="color:#EEEEEE; font-size: x-large;"><b>SPIDER-MAN: ACROSS THE<br> SPIDER-VERSE Trailer</b></p>
+                <a href="iframes/Panda.html" target="iframe_movie"><img src="../Pics/Kung Fu Panda Trailer.png"
+                        width="400" height="250" hspace="50"></a>
+                <p style="color:#EEEEEE; font-size: x-large;"><b>Kung Fu Panda 1 Trailer</b></p>
+            </div>
+
+            <div class="mvcolumn" style="background-color: #3A3A3A;">
+                <a href="iframes/Turbo.html" target="iframe_movie"><img src="../Pics/Turbo Trailer.png" width="400"
+                        height="250" hspace="50"></a>
+                <p style="color:#EEEEEE; font-size: x-large;"><b>Turbo Trailer</b></p>
+                <a href="iframes/Charlie.html" target="iframe_movie"><img
+                        src="../Pics/Charlie and the Chocolate Factory Trailer.png" width="400" height="250"
+                        hspace="50"></a>
+                <p style="color:#EEEEEE; font-size: x-large;"><b>Charlie and the Chocolate<br> Factory Trailer</b></p>
+            </div>
+        </div>
+    </center>
+</body>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+    window.onscroll = function () { myFunction() };
+    var topnav = document.getElementById("myTopnav")
+    var sticky = topnav.offsetTop
+
+
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+            topnav.classList.add("sticky");
+        } else {
+            topnav.classList.remove("sticky");
+        }
+    }
+</script>
+
+</html>

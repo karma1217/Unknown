@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Its Ya Boi, Daniel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * 
+        .full
+            {
+            width : 350px;
+            }
+    </style>
+</head>
+
+<body bgcolor="#2A2A2A">
+    <center>
+        <audio class="full" controls autoplay>
+            <source src="../../Music/Daniel Thrasher - Igowallah.mp3" type="audio/mpeg">
+            <source src="../../Music/Daniel Thrasher - Igowallah.mp3" type="audio/ogg">
+            <source src="../../Music/Daniel Thrasher - Igowallah.mp3" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        <p style="color: #EEEEEE;">Currently Playing: Daniel Thrasher - Igowallah</p>
+    </center>
+</body>
+
+</html>

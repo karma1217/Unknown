@@ -1,0 +1,120 @@
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background-image: url("pics/limbo.png");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    p {
+        color: #EEEEEE;
+    }
+    .waviy h1 {
+        font-family:'Courier New', Courier, monospace;
+        position: relative;
+        display: inline-block;
+        color: #EEEEEE;
+        line-height: 100px;
+        text-transform: uppercase;
+        animation: waviy 2.5s infinite;
+        animation-delay: calc(.1s * var(--i));
+    }
+    @keyframes waviy {
+      0%,40%,100% {
+        transform: translateY(0)
+      }
+      20% {
+        transform: translateY(-20px)
+      }
+    }
+    .bottom {
+        align-items: center;
+        padding-left: 225px;
+        padding-right: 225px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-style: outset;
+        border-radius: 30%;
+        display: table;
+    }
+    .top {
+        align-items: center;
+        padding-left: 170px;
+        padding-right: 170px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-style: outset;
+        border-radius: 30%;
+        display: table;
+    }
+    .SecTop {
+        align-items: center;
+        padding-left: 225px;
+        padding-right: 225px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-style: outset;
+        border-radius: 30%;
+        display: table;
+        border-color: #EEEEEE;
+    }
+    .full
+        {
+        width : 350px;
+        }
+    #font {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .column {
+        float: none;
+        width: auto;
+        padding: 10px;
+        padding-left: 100px;
+        padding-right: 100px;
+        border-color: #2A2A2A;
+        border-style: solid;
+        border-left-width: 10%;
+        border-left-style: 10%;
+        display: inline-table;
+    }
+    .myinfo {
+        float: none;
+        width: auto;
+        padding: 10px;
+        border-color: #2A2A2A;
+        border-style: solid;
+        border-left-width: 10%;
+        border-left-style: 10%;
+        display: inline-table;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        align-items: center;
+        vertical-align: auto;
+    }
+    .mv:after {
+        content: "";
+        display: table;
+        clear: both;
+        align-items: center;
+        vertical-align: auto;
+        min-width: 100vw;
+        width: 100%;
+    }
+    .mvcolumn {
+        float: none;
+        width: 40%;
+        padding: 30px;
+        border-color: #2A2A2A;
+        border-style: solid;
+        border-left-width: 10%;
+        border-left-style: 10%;
+        display: inline-table;
+    }

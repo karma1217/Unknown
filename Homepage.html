@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ENIGMA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="pics/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="stylish.css">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <span style="cursor:pointer" onclick="openNav()">&#9776;</span>
+        <a href="Homepage.html">
+            <img src="pics/logo.png" draggable="false" width="30px" height="30px"
+                style="right: 10px; transform: translateY(5px); padding-left: 10px;">
+            <img src="pics/enigma.png" draggable="false" width="90px" height="30px"
+                style="transform: translateY(5px); padding-right: 10px;">
+        </a>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="Homepage.html" class="active">
+            <img src="pics/enigma.png" draggable="false" width="90px" height="30px"
+                style="right: 10px; transform: translateY(5px)">
+        </a>
+        <h3>Cult&nbsp;Members:</h3>
+        <a href="MD/DELGADOCSS.html">MIKHA</a>
+        <a href="De Leon_CSS HoA 3/DAMN DANIEL.html">DANIEL&nbsp;VIAN</a>
+        <a href="De Leon_CSS HoA 3/Subpages/MyFavorites.html" style="font-size: 20px;">>&nbsp;&nbsp;Daniel's&nbsp;Favorites</a>
+    </div>
+    <div class="sectionbody" id="bgmove">
+        <img src="pics/Erebus White.png" draggable="false" width="400px" height="140px"
+            style="transform:translateY(80px) ;padding: 50px; padding-bottom: 100px;">
+    </div>
+    </div>
+    <hr>
+    <div class="rowrow">
+        <div class="sectioncontainer">
+            <a href="MD/DELGADOCSS.html">
+                <div class="sectionleft">
+                        <h1>MIKHA</h1>
+                </div>
+            </a>
+            <a href="De Leon_CSS HoA 3/DAMN DANIEL.html">
+                <div class="sectionright">
+                    <h1>DANIEL&nbsp;VIAN</h1>
+                </div>
+            </a>
+        </div>
+    </div>
+    <br><br><br>
+</body>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+    window.onscroll = function () { myFunction() };
+    var topnav = document.getElementById("myTopnav")
+    var sticky = topnav.offsetTop
+
+
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+            topnav.classList.add("sticky");
+        } else {
+            topnav.classList.remove("sticky");
+        }
+    }
+    var bgmove = document.getElementById("bgmove");
+    window.addEventListener("scroll", function () {
+        bgmove.style.backgroundPositionY = -window.
+            pageYOffset +"px"
+    })
+</script>
+
+</html>
